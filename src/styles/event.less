@@ -1,0 +1,25 @@
+.event {
+    padding: 64px;
+    background-image: url(https://blog.udemy.com/wp-content/uploads/2014/05/shutterstock_61871032-768x576.jpg);
+    text-align: center;
+    background-size: cover;
+    border-top: 2px solid @principalTextColor;
+    border-bottom: 2px solid @principalTextColor;
+    border-radius: 5%;
+ 
+    .container {
+       display: flex;
+       gap: 40px;
+       position: relative;
+    }
+ 
+    &__content {
+        &__title {
+           padding-bottom: 8px;
+        }
+ 
+        &__text, &__title {
+         color: @principalTextColor;
+        }
+    }
+ }

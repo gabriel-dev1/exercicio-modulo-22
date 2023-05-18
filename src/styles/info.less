@@ -1,0 +1,43 @@
+.info {
+    
+    padding: 16px;
+    color: @secondaryTextColor;
+
+    &__list {
+       display: grid;
+       grid-template-columns: repeat(3, 33.3%);
+
+       &__text {
+        color: @principalTextColor;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
+
+        &__item {
+            background-color: @principalTextColor;
+            padding: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            box-shadow: 16px 16px 10px @secondaryTextColor;
+
+            &__p {
+                font-weight: 500;
+                padding-top: 4px 0;
+            }
+        }
+
+    }
+
+    @media (max-width: 767px) {
+       &__list {
+           display: block;
+
+           &__text {
+            padding: 32px;
+        }
+       }
+    }
+
+}

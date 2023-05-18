@@ -1,0 +1,17 @@
+{
+  "name": "modulo_22_exercicio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "dev": "parcel src/index.html src/styles/style.less src/scripts/script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-less": "^2.8.3",
+    "parcel": "^2.8.3"
+  }
+}
